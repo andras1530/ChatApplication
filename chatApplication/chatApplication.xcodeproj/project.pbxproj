@@ -18,6 +18,7 @@
 		3BDCCC442B2AF1F800C7E185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDCCC432B2AF1F800C7E185 /* Assets.xcassets */; };
 		3BDCCC472B2AF1F800C7E185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDCCC452B2AF1F800C7E185 /* LaunchScreen.storyboard */; };
 		3BE8004D2B2B0A8C006FE1B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8004C2B2B0A8C006FE1B2 /* GoogleService-Info.plist */; };
+		3BEDF2262B5942B5005D4E6B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDF2252B5942B5005D4E6B /* SettingsTableViewController.swift */; };
 		DAF1077F70D4FAE0095C91CC /* Pods_chatApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECB7DF4C4F9A3ED2099E765 /* Pods_chatApplication.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		3BDCCC462B2AF1F800C7E185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BDCCC482B2AF1F800C7E185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE8004C2B2B0A8C006FE1B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BEDF2252B5942B5005D4E6B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		3ECB7DF4C4F9A3ED2099E765 /* Pods_chatApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B103E592C8A252D04FA2BC /* Pods-chatApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatApplication.release.xcconfig"; path = "Target Support Files/Pods-chatApplication/Pods-chatApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 				3BDCCC3C2B2AF1F600C7E185 /* SceneDelegate.swift */,
 				3BDCCC3E2B2AF1F600C7E185 /* LoginViewController.swift */,
 				3BDCCC402B2AF1F600C7E185 /* Main.storyboard */,
+				3BEDF2252B5942B5005D4E6B /* SettingsTableViewController.swift */,
 				3BDCCC432B2AF1F800C7E185 /* Assets.xcassets */,
 				3BDCCC452B2AF1F800C7E185 /* LaunchScreen.storyboard */,
 				3BDCCC482B2AF1F800C7E185 /* Info.plist */,
@@ -250,6 +253,7 @@
 				3B7BF53F2B57C2680043E69E /* Contstants.swift in Sources */,
 				3B7BF53C2B57C0100043E69E /* User.swift in Sources */,
 				3BDCCC3F2B2AF1F600C7E185 /* LoginViewController.swift in Sources */,
+				3BEDF2262B5942B5005D4E6B /* SettingsTableViewController.swift in Sources */,
 				3BDCCC3B2B2AF1F600C7E185 /* AppDelegate.swift in Sources */,
 				3B7BF5442B57D4930043E69E /* FirebaseUserListener.swift in Sources */,
 				3BDCCC3D2B2AF1F600C7E185 /* SceneDelegate.swift in Sources */,
