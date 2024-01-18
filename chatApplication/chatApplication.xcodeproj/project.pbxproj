@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B7BF53C2B57C0100043E69E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BF53B2B57C0100043E69E /* User.swift */; };
+		3B7BF53F2B57C2680043E69E /* Contstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BF53E2B57C2680043E69E /* Contstants.swift */; };
+		3B7BF5412B57CF9B0043E69E /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BF5402B57CF9B0043E69E /* FCollectionReference.swift */; };
+		3B7BF5442B57D4930043E69E /* FirebaseUserListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BF5432B57D4930043E69E /* FirebaseUserListener.swift */; };
 		3BDCCC3B2B2AF1F600C7E185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDCCC3A2B2AF1F600C7E185 /* AppDelegate.swift */; };
 		3BDCCC3D2B2AF1F600C7E185 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDCCC3C2B2AF1F600C7E185 /* SceneDelegate.swift */; };
 		3BDCCC3F2B2AF1F600C7E185 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDCCC3E2B2AF1F600C7E185 /* LoginViewController.swift */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		0D20A08B0E08D9FEFB04F32C /* Pods-chatApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatApplication.debug.xcconfig"; path = "Target Support Files/Pods-chatApplication/Pods-chatApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		3B7BF53B2B57C0100043E69E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3B7BF53E2B57C2680043E69E /* Contstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contstants.swift; sourceTree = "<group>"; };
+		3B7BF5402B57CF9B0043E69E /* FCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		3B7BF5432B57D4930043E69E /* FirebaseUserListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUserListener.swift; sourceTree = "<group>"; };
 		3BDCCC372B2AF1F600C7E185 /* chatApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDCCC3A2B2AF1F600C7E185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BDCCC3C2B2AF1F600C7E185 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +61,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3B7BF53D2B57C01C0043E69E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B7BF53B2B57C0100043E69E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B7BF5422B57D3F60043E69E /* FirebaseHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				3B7BF5402B57CF9B0043E69E /* FCollectionReference.swift */,
+				3B7BF5432B57D4930043E69E /* FirebaseUserListener.swift */,
+			);
+			path = FirebaseHelpers;
+			sourceTree = "<group>";
+		};
+		3BD352C82B59228000110F5A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3B7BF53E2B57C2680043E69E /* Contstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3BDCCC2E2B2AF1F600C7E185 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +115,9 @@
 				3BDCCC452B2AF1F800C7E185 /* LaunchScreen.storyboard */,
 				3BDCCC482B2AF1F800C7E185 /* Info.plist */,
 				3BE8004C2B2B0A8C006FE1B2 /* GoogleService-Info.plist */,
+				3B7BF5422B57D3F60043E69E /* FirebaseHelpers */,
+				3B7BF53D2B57C01C0043E69E /* Model */,
+				3BD352C82B59228000110F5A /* Helpers */,
 			);
 			path = chatApplication;
 			sourceTree = "<group>";
@@ -210,8 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7BF5412B57CF9B0043E69E /* FCollectionReference.swift in Sources */,
+				3B7BF53F2B57C2680043E69E /* Contstants.swift in Sources */,
+				3B7BF53C2B57C0100043E69E /* User.swift in Sources */,
 				3BDCCC3F2B2AF1F600C7E185 /* LoginViewController.swift in Sources */,
 				3BDCCC3B2B2AF1F600C7E185 /* AppDelegate.swift in Sources */,
+				3B7BF5442B57D4930043E69E /* FirebaseUserListener.swift in Sources */,
 				3BDCCC3D2B2AF1F600C7E185 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
