@@ -41,6 +41,14 @@ class SettingsTableViewController: UITableViewController {
         return section == 0 ? 0.0 : 10.0
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        if indexPath.section == 0 && indexPath.row == 0 {
+            performSegue(withIdentifier: "settingsToEditProfileSeg", sender: self)
+        }
+    }
     
     
         //MARK: - IBActions
@@ -55,7 +63,15 @@ class SettingsTableViewController: UITableViewController {
     
     
     @IBAction func logOutButtonPressed(_ sender: Any) {
-        print("logout")
+        FirebaseUserListener.shared.logOutCurrentUser { (error) in
+            if error == nil {
+                let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loginView")
+                DispatchQueue.main.async {
+                    loginView.modalPresentationStyle = .fullScreen
+                    self.present(loginView, animated: true, completion: nil)
+                }
+            }
+        }
     }
     
     //MARK: - UpdateUI
